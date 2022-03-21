@@ -4,8 +4,8 @@ This script plots the two entropies of the Voronoi GCA as a function of the thre
 from joblib import Parallel, delayed
 from tqdm import tqdm
 
-from modules.ca import *
-from voronoi.measures import shannon_entropy, word_entropy
+from gnca.modules.ca import *
+from gnca.voronoi.measures import shannon_entropy, word_entropy
 
 n_cells = 1000
 steps = 1000

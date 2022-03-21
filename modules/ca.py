@@ -7,7 +7,7 @@ from scipy.spatial import Voronoi
 from spektral.data import Graph
 from spektral.transforms import Delaunay, NormalizeAdj
 
-from modules import voronoi_utils
+from gnca.modules import voronoi_utils
 
 
 class CA:

@@ -10,7 +10,7 @@ from spektral.data import DisjointLoader
 from spektral.layers import ops
 from tensorflow.keras.models import load_model
 
-from modules.boids import make_dataset
+from gnca.modules.boids import make_dataset
 
 
 @tf.function(experimental_relax_shapes=True)

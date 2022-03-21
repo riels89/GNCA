@@ -1,7 +1,7 @@
 """
 Shows an animation of the Boids system.
 """
-from modules.boids import Boids
+from gnca.modules.boids import Boids
 
 boids = Boids(
     min_speed=0.0001,  # Min speed of the boids

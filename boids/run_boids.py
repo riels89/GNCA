@@ -11,11 +11,11 @@ from spektral.data import DisjointLoader
 from tensorflow.keras.callbacks import EarlyStopping, ReduceLROnPlateau
 from tensorflow.keras.optimizers import Adam
 
-from boids.evaluate_boids import evaluate
-from boids.forward import forward
-from models.gnn_ca_simple_boids import GNNCASimpleBoids
-from modules.boids import make_dataset
-from modules.callbacks import ComplexityCallback
+from gnca.boids.evaluate_boids import evaluate
+from gnca.boids.forward import forward
+from gnca.models.gnn_ca_simple_boids import GNNCASimpleBoids
+from gnca.modules.boids import make_dataset
+from gnca.modules.callbacks import ComplexityCallback
 
 # tf.config.run_functions_eagerly(True)
 physical_devices = tf.config.list_physical_devices("GPU")

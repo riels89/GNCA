@@ -1,7 +1,7 @@
 import tensorflow as tf
 from spektral.models.general_gnn import MLP, GeneralGNN
 
-from layers.simple_edge_conv import SimpleEdgeConv
+from gnca.layers.simple_edge_conv import SimpleEdgeConv
 
 
 class GNNCASimpleBoids(tf.keras.Model):

@@ -1,8 +1,8 @@
 import numpy as np
 from tensorflow.keras.callbacks import Callback
 
-from boids.evaluate_boids import evaluate_complexity
-from boids.forward import forward
+from gnca.boids.evaluate_boids import evaluate_complexity
+from gnca.boids.forward import forward
 
 
 class ComplexityCallback(Callback):

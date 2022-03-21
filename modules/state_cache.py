@@ -1,6 +1,6 @@
 import numpy as np
 
-from modules.utils import is_iterable
+from gnca.modules.utils import is_iterable
 
 
 class StateCache:

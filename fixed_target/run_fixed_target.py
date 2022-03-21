@@ -14,10 +14,10 @@ from spektral.transforms import NormalizeSphere
 from tensorflow.keras.losses import MeanSquaredError
 from tensorflow.keras.optimizers import Adam
 
-from models import GNNCASimple
-from modules.graphs import get_cloud
-from modules.init_state import SphericalizeState
-from modules.state_cache import StateCache
+from gnca.models import GNNCASimple
+from gnca.modules.graphs import get_cloud
+from gnca.modules.init_state import SphericalizeState
+from gnca.modules.state_cache import StateCache
 
 # tf.config.run_functions_eagerly(True)
 physical_devices = tf.config.list_physical_devices("GPU")

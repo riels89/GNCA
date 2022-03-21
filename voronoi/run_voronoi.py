@@ -6,8 +6,8 @@ from tensorflow.keras.metrics import binary_accuracy
 from tensorflow.keras.optimizers import Adam
 from tqdm import tqdm
 
-from models import GNNCASimple
-from modules.ca import *
+from gnca.models import GNNCASimple
+from gnca.modules.ca import *
 
 # tf.config.run_functions_eagerly(True)
 physical_devices = tf.config.list_physical_devices("GPU")

@@ -4,7 +4,7 @@ This script shows an animation of the Voronoi GCA.
 import matplotlib.pyplot as plt
 import numpy as np
 
-from modules.ca import VoronoiCA
+from gnca.modules.ca import VoronoiCA
 
 n_cells = 1000
 mu = 0.0
