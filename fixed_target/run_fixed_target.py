@@ -182,6 +182,8 @@ if __name__ == "__main__":
         zs = np.vstack(zs)
         z = zs[-1]
 
+        model.save(f"{out_dir}/model.h5")
+
         out_dir = f"{args.outdir}/{graph.name}"
         os.makedirs(out_dir, exist_ok=True)
         with open(f"{out_dir}/config.txt", "w") as f:
